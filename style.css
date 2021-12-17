@@ -5,7 +5,7 @@ body {
 #stopwatch {
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 130px;
+    font-size: 150px;
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
@@ -27,8 +27,8 @@ body {
     text-align: center;
 }
 
-Button {
-    color: aqua;
+button {
+    color: #fff;
     background-color: black;
     border: black;
     font-family: 'Courier New', Courier, monospace;
@@ -40,47 +40,7 @@ Button {
     
 }
 
-Button:hover {
-    font-size: 60px;
-    transition: 0.5s;
-    
-}
-Zugan
-.startButton {
-    color: aqua;
-    background-color: black;
-    border: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    margin: 30px;
-    padding: 20px;
-    transition: 0.5s;
-    animation: glow 3s ease-in-out infinite alternate;
-    
-}
-
-.startButton:hover {
-    cursor: pointer;
-    font-size: 60px;
-    box-shadow: 0 0 50px aqua;
-    transition: 0.5s;
-    
-}
-
-.resetButton {
-    color: aqua;
-    background-color: black;
-    border: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    margin: 30px;
-    padding: 20px;
-    transition: 0.5s;
-    animation: glow 3s ease-in-out infinite alternate;
-    
-}
-
-.resetButton:hover {
+button:hover {
     cursor: pointer;
     font-size: 60px;
     box-shadow: 0 0 50px aqua;
