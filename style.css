@@ -3,20 +3,113 @@ body {
 }
 
 #stopwatch {
-    color: aqua;
+    color: #fff;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 175px;
+    font-size: 130px;
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
+    animation: glow 3s ease-in-out infinite alternate;  
 }
 
-button {
+#containerWatch {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#container {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(-60%, -50%);
+    text-align: center;
+}
+
+Button {
     color: aqua;
     background-color: black;
     border: black;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
-    margin: 100px;
-    padding: 1px;
+    font-size: 30px;
+    margin: 30px;
+    padding: 20px;
+    transition: 0.5s;
+    animation: glow 3s ease-in-out infinite alternate;
+    
 }
+
+Button:hover {
+    font-size: 60px;
+    transition: 0.5s;
+    
+}
+Zugan
+.startButton {
+    color: aqua;
+    background-color: black;
+    border: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 30px;
+    padding: 20px;
+    transition: 0.5s;
+    animation: glow 3s ease-in-out infinite alternate;
+    
+}
+
+.startButton:hover {
+    cursor: pointer;
+    font-size: 60px;
+    box-shadow: 0 0 50px aqua;
+    transition: 0.5s;
+    
+}
+
+.resetButton {
+    color: aqua;
+    background-color: black;
+    border: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 30px;
+    padding: 20px;
+    transition: 0.5s;
+    animation: glow 3s ease-in-out infinite alternate;
+    
+}
+
+.resetButton:hover {
+    cursor: pointer;
+    font-size: 60px;
+    box-shadow: 0 0 50px aqua;
+    transition: 0.5s;
+    
+}
+
+.startButton {
+    border: solid 2px;
+
+}
+
+.stopButton {
+    border: solid 2px;
+}
+
+.resetButton {
+    border: solid 2px; 
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #90fbff, 0 0 40px #90fbff, 0 0 50px #90fbff, 0 0 60px #90fbff, 0 0 70px #90fbff;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 60px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff;
+    }
+}
+
+
+
